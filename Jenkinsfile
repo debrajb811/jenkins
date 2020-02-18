@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello me Debraj!"
+                echo "Hello World!"
                 sh "echo Hello from the shell"
                 sh "hostname"
                 sh "uptime"
